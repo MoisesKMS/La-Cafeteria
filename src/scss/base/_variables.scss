@@ -1,8 +1,12 @@
 /** Fuentes **/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-$fuente_principal: 'Roboto',
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap');
+$fuentePrincipal: 'Raleway',
 sans-serif;
+$fuenteSecundaria: 'Roboto',
+sans-serif;
+$fuenteCursiva: 'Bona Nova',
+serif;
 
 /** Media Queries **/
 
@@ -12,11 +16,12 @@ $desktop: 1024px;
 
 /** Colores **/
 
-$primario: #e8505b;
-$secundario: #455a64;
+$primario: #5e311e;
+$secundario: #c39c63;
 $negro: #000;
 $blanco: #fff;
 $grisClaro: #eceeef;
+$cafeClaro: #ebe7d7;
 
 /** Unidades **/
 

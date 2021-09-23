@@ -58,7 +58,4 @@ exports.dev = dev;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
-exports.default = series(imagenes, versionWebp, versionAvif, css, dev);
-
-// series - Se inicia una tarea, y hasta que finaliza, inicia la siguiente
-// parallel - Todas inician al mismo tiempo
+exports.default = parallel(imagenes, versionWebp, versionAvif, css, dev);
